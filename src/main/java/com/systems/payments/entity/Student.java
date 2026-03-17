@@ -18,11 +18,11 @@ public class Student {
     @Id
     private String id;
     private String name;
-    private String apellido;
+    private String lastname;
 
     @Column(unique = true)
-    private String codigo;
-    private String programaId;
-    private String foto;
+    private String code;
+    private String programId;
+    private String photo;
 
 }
